@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/contact-style.css">
+    <title>تماس با ما</title>
+</head>
+
+<body>
+    <div class="body-mail">
+        <div class="mailbox">
+            <div class="mail-content">
+                <h2 class="frm-mail-h2"> از طریق فرم زیر با ما در تماس باشید</h2>
+                <form action="" class="email-form">
+                    <div class="sort-text">
+                        <input type="text" class="txt-mail" placeholder="نام" id="txtname" name="name">
+                        <input type="text" class="txt-mail" placeholder="نام خانوادگی" id="txtfamily" name="family">
+                        <input type="text" class="txt-mail" placeholder="ایمیل" id="txtmail" name="email">
+                        <label class="jender">جنسیت : </label>
+                        <div class="rdbox">
+                            <label class="lbl" for="">زن</label>
+                            <input type="radio" name="rdbtn" id="rd1" value="0" class="rdbox2" checked>
+                            <label class="lbl">مرد</label>
+                            <input type="radio" name="rdbtn" id="rd2" value="1" class="rdbox2">
+
+                        </div>
+                        <label class="jender">موضوع : </label>
+                        <div class="rdbox">
+                            <label class="lbl" for="">مشاوره</label>
+                            <input type="checkbox" name="backup" id="ch0" value="0" class="cheks" checked>
+                            <label class="lbl">پشتیبانی</label>
+                            <input type="checkbox" name="backup" id="ch1" value="1" class="cheks">
+                            <label class="lbl">سوال</label>
+                            <input type="checkbox" name="backup" id="ch2" value="2" class="cheks">
+
+
+                        </div>
+                        <TExtarea class="txt-mail tz" placeholder="توضیحات" id="txtcomment"></TExtarea>
+                    </div>
+                    <div class="sort-btn">
+                        <input class="btns btn-send" type="button" value="ارسال" onclick="contactform()" id="btnsent" />
+                        <input type="button" id="btnexit" class="btns btn-exit" onclick="location.href='index.html';" value="خروج" />
+                    </div>
+                    <p id="errore" class="p-errore">
+
+                    </p>
+                </form>
+            </div>
+            <div class="mail-pic">
+                <img src="images/Sent Message-amico.png" alt="" class="mail-img">
+
+            </div>
+        </div>
+    </div>
+    <script src="scripts/contact.js"></script>
+</body>
+
+</html>
