@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>flexbox mirlohwp</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/all.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="section-nav">
+
+
+                <img src="images/logo.png" alt="" class="nav-logo-img">
+                <nav class="nav">
+
+
+                    <ul class="menu">
+                        <li class="menu-itme">
+                            <a class="menu-link" href="#">صفحه اصلی</a>
+                        </li>
+                        <li class="menu-itme">
+                            <a class="menu-link" href="#"> ویژگی ها</a>
+                        </li>
+                        <li class="menu-itme">
+                            <a class="menu-link" href="#">اخبار</a>
+                        </li>
+                        <li class="menu-itme">
+                            <a class="menu-link" href="#"> درباره ما</a>
+                        </li>
+                        <li class="menu-itme">
+                            <a class="menu-link" href="contact.html"> تماس با ما</a>
+                        </li>
+
+                    </ul>
+                    <div class="nav-logo">
+                        <a href="#" class="header-btn"> نسخه انگلیسی</a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="container2">
+            <div class="head-content-section">
+                <div class="head-cont">
+                    <h2 class="hd-content"> سرمایه گذاری روی
+                        <span class="p-other-color"> بیت کوین </span><br> سرمایه گذاری در دنیای جدید
+                    </h2>
+                    <p class="hd-text">برای کسب درآمد عالی از فناوری‌های پیشرفته‌ای مانند ارزهای دیجیتال استفاده کنید</p>
+                    <form action="" class="frm-head">
+                        <input type="text" class="frm-txt" value="ایمیل خود را وارد کیند">
+                        <button class="frm-btn">شروع کیند</button>
+                    </form>
+                </div>
+                <div class="head-img">
+                    <img src="images/laptop.png" alt="" class="hd-img">
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <main class="main">
+        <div class="container3">
+
+            <section class="bit-qustion">
+                <div class="bit-bit">
+
+                    <div class="bit-img">
+                        <img src="images/about-img.png" alt="" class="bi">
+                    </div>
+                    <div class="bit-fl">
+                        <div class="bit-content">
+                            <h2 class="bit-h2">بیت کوین چیست؟</h2>
+                            <h5 class="bit-h5">بیت کوین ارز دیجیتالی است که می‌توانید آن را به عنوان یک ابزار سرمایه‌گذاری در نظر بگیرید.</h5>
+                            <p class="bit-p">بیت کوین نوعی ارزدیجیتال است که می‌توانید با آن خرید کنید، سفارش‌ آنلاین انجام دهید، به هر کسی که دوست دارید در هر نقطه از جهان پول بفرستید یا حتی آن را به عنوان نوعی سرمایه‌گذاری در نظر بگیرید.</p>
+                            <div class="box-bit-btn">
+                                <a href="#" class="bit-btn">ادامه مطلب</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <section class="Attributes">
+            <div class="container2">
+                <div class="Attributes-box">
+                    <h2 class="Attributes-h2">ویژگی‌های ما</h2>
+                    <p class="p-Attributes">بیت کوین ارز دیجیتال غیرمتمرکزی است که توسط مردم کنترل می‌شود.</p>
+                    <div class="Attributes-items">
+                        <div class="Attributes-item">
+                            <i class="fas fa-phone Attributes-i"></i>
+                            <div class="Attributes-content">
+                                <h4 class="Attributes-header">اپلیکیشن مبایل</h4>
+                                <p class="Attributes-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+                                <a href="#" class="Attributes-btn">ادامه مطلب</a>
+                            </div>
+                        </div>
+                        <div class="Attributes-item">
+                            <i class="	fas fa-shield-alt Attributes-i"></i>
+                            <div class="Attributes-content">
+                                <h4 class="Attributes-header">امنیت 100%</h4>
+                                <p class="Attributes-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+                                <a href="#" class="Attributes-btn">ادامه مطلب</a>
+                            </div>
+                        </div>
+                        <div class="Attributes-item">
+                            <i class="fas fa-wallet Attributes-i"></i>
+                            <div class="Attributes-content">
+                                <h4 class="Attributes-header">کیف پول</h4>
+                                <p class="Attributes-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+                                <a href="#" class="Attributes-btn">ادامه مطلب</a>
+                            </div>
+                        </div>
+                        <div class="Attributes-item">
+                            <i class="	fas fa-headset Attributes-i"></i>
+                            <div class="Attributes-content">
+                                <h4 class="Attributes-header">پشتیبانی دائمی</h4>
+                                <p class="Attributes-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+                                <a href="#" class="Attributes-btn">ادامه مطلب</a>
+                            </div>
+                        </div>
+                        <div class="Attributes-item">
+                            <i class="	fas fa-exchange-alt Attributes-i"></i>
+                            <div class="Attributes-content">
+                                <h4 class="Attributes-header">تبدیل ارز فوری</h4>
+                                <p class="Attributes-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+                                <a href="#" class="Attributes-btn">ادامه مطلب</a>
+                            </div>
+                        </div>
+                        <div class="Attributes-item">
+                            <i class="fas fa-cart-plus Attributes-i"></i>
+                            <div class="Attributes-content">
+                                <h4 class="Attributes-header">خرید های مکرر</h4>
+                                <p class="Attributes-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+                                <a href="#" class="Attributes-btn">ادامه مطلب</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bitpayment">
+            <div class="container2">
+
+                <h2 class="bitpayment-h2">با بیت کوین شروع کنید</h2>
+                <p class="bitpayment-p">با آموزش‌های ما سرمایه گذاری روی بیت کوین را با خاطر امن شروع کنید. دنیای شگفت انگیزی را پیش رو خواهید داشت!</p>
+                <div class="bitpayment-items">
+                    <div class="bitpayment-itme">
+                        <img src="images/1.png" alt="" class="bitpayment-img">
+                        <h2 class="bitpayment-content-h2">کیف پول خود را بسازید</h2>
+                        <p class="bitpayment-content-p">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+                    </div>
+                    <div class="bitpayment-itme">
+                        <img src="images/2.png" alt="" class="bitpayment-img">
+                        <h2 class="bitpayment-content-h2">کیف پول خود را بسازید</h2>
+                        <p class="bitpayment-content-p">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+                    </div>
+                    <div class="bitpayment-itme">
+                        <img src="images/3.png" alt="" class="bitpayment-img">
+                        <h2 class="bitpayment-content-h2">کیف پول خود را بسازید</h2>
+                        <p class="bitpayment-content-p">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="detail">
+            <div class="container2">
+
+                <div class="detail-row">
+                    <div class="detail-item">
+                        <i class="	far fa-window-restore detail-i"></i>
+                        <h2 class="detail-h2">
+                            60+
+                            <span class="detail-span"> تماس</span>
+                        </h2>
+                        <p class="detail-box-p">پشتیبانی کشورها</p>
+
+                    </div>
+                    <div class="detail-item">
+                        <i class="	fab fa-strava detail-i"></i>
+                        <h2 class="detail-h2">
+                            12+
+                            <span class="detail-span"> هزار</span>
+                        </h2>
+                        <p class="detail-box-p">تراکنش‌ در هر ساعت</p>
+                    </div>
+                    <div class="detail-item">
+                        <i class="	fas fa-chart-line detail-i"></i>
+                        <h2 class="detail-h2">
+                            5
+                            <span class="detail-span"> میلیارد</span>
+                        </h2>
+                        <p class="detail-box-p">بیشترین تراکنش‌ها</p>
+
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-user-alt detail-i"></i>
+                        <h2 class="detail-h2">
+                            211
+                            <span class="detail-span"> پروژه</span>
+                        </h2>
+                        <p class="detail-box-p">میزان تجربه ما</p>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="engineer">
+            <div class="eng-box">
+                <h2 class="eng-h2">متخصصان تیم ما</h2>
+                <p class="eng-p">متخصصان و کارشناسان ما آماده‌اند تا با روی باز به سوالات مربوط به ارزهای دیجیتال شما پاسخ دهند.</p>
+                <div class="eng-items">
+                    <div class="eng-item">
+                        <img src="images/1.jpg" alt="" class="eng-img">
+                        <h2 class="eng-content-h2">صابر افشاری</h2>
+                        <p class="eng-content-p">کارشناس امنیت</p>
+                        <div class="social">
+                            <div class="social-items">
+                                <div class="sort-social">
+                                    <a href="" class="social-items-a">
+                                        <i class="social-items-i fab fa-facebook-f"></i>
+                                    </a>
+                                </div>
+                                <div class="sort-social">
+
+                                    <a href="" class="social-items-a">
+                                        <i class="social-items-i fab fa-linkedin-in"></i>
+                                    </a>
+                                </div>
+                                <div class="sort-social">
+
+                                    <a href="" class="social-items-a">
+                                        <i class="social-items-i fab fa-telegram-plane"></i>
+                                    </a>
+                                </div>
+                                <div class="sort-social">
+
+                                    <a href="" class="social-items-a">
+                                        <i class="social-items-i fab fa-instagram"></i>
+                                    </a>
+                                </div>
+                                <div class="sort-social">
+
+                                    <a href="" class="social-items-a">
+                                        <i class="social-items-i fab fa-twitter"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="eng-item">
+                        <img src="images/2.jpg" alt="" class="eng-img">
+                        <h2 class="eng-content-h2">صابر افشاری</h2>
+                        <p class="eng-content-p">کارشناس امنیت</p>
+                        <div class="social">
+                            <div class="social-items">
+                                <div class="sort-social">
+                                    <a href="" class="social-items-a">
+                                        <i class="social-items-i fab fa-facebook-f"></i>
+                                    </a>
+                                </div>
+                                <div class="sort-social">
+
+                                    <a href="" class="social-items-a">
+                                        <i class="social-items-i fab fa-linkedin-in"></i>
+                                    </a>
+                                </div>
+                                <div class="sort-social">
+
+                                    <a href="" class="social-items-a">
+                                        <i class="social-items-i fab fa-telegram-plane"></i>
+                                    </a>
+                                </div>
+                                <div class="sort-social">
+
+                                    <a href="" class="social-items-a">
+                                        <i class="social-items-i fab fa-instagram"></i>
+                                    </a>
+                                </div>
+                                <div class="sort-social">
+
+                                    <a href="" class="social-items-a">
+                                        <i class="social-items-i fab fa-twitter"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="eng-item">
+                        <img src="images/3.jpg" alt="" class="eng-img">
+                        <h2 class="eng-content-h2">صابر افشاری</h2>
+                        <p class="eng-content-p">کارشناس امنیت</p>
+                        <div class="social">
+                            <div class="social-items">
+                                <div class="sort-social">
+                                    <a href="" class="social-items-a">
+                                        <i class="social-items-i fab fa-facebook-f"></i>
+                                    </a>
+                                </div>
+                                <div class="sort-social">
+
+                                    <a href="" class="social-items-a">
+                                        <i class="social-items-i fab fa-linkedin-in"></i>
+                                    </a>
+                                </div>
+                                <div class="sort-social">
+
+                                    <a href="" class="social-items-a">
+                                        <i class="social-items-i fab fa-telegram-plane"></i>
+                                    </a>
+                                </div>
+                                <div class="sort-social">
+
+                                    <a href="" class="social-items-a">
+                                        <i class="social-items-i fab fa-instagram"></i>
+                                    </a>
+                                </div>
+                                <div class="sort-social">
+
+                                    <a href="" class="social-items-a">
+                                        <i class="social-items-i fab fa-twitter"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="eng-item">
+                        <img src="images/4.jpg" alt="" class="eng-img">
+                        <h2 class="eng-content-h2">صابر افشاری</h2>
+                        <p class="eng-content-p">کارشناس امنیت</p>
+                        <div class="social">
+                            <div class="social-items">
+                                <div class="sort-social">
+                                    <a href="" class="social-items-a">
+                                        <i class="social-items-i fab fa-facebook-f"></i>
+                                    </a>
+                                </div>
+                                <div class="sort-social">
+
+                                    <a href="" class="social-items-a">
+                                        <i class="social-items-i fab fa-linkedin-in"></i>
+                                    </a>
+                                </div>
+                                <div class="sort-social">
+
+                                    <a href="" class="social-items-a">
+                                        <i class="social-items-i fab fa-telegram-plane"></i>
+                                    </a>
+                                </div>
+                                <div class="sort-social">
+
+                                    <a href="" class="social-items-a">
+                                        <i class="social-items-i fab fa-instagram"></i>
+                                    </a>
+                                </div>
+                                <div class="sort-social">
+
+                                    <a href="" class="social-items-a">
+                                        <i class="social-items-i fab fa-twitter"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="eng-item">
+                        <img src="images/5.jpg" alt="" class="eng-img">
+                        <h2 class="eng-content-h2">صابر افشاری</h2>
+                        <p class="eng-content-p">کارشناس امنیت</p>
+                        <div class="social">
+                            <div class="social-items">
+                                <div class="sort-social">
+                                    <a href="" class="social-items-a">
+                                        <i class="social-items-i fab fa-facebook-f"></i>
+                                    </a>
+                                </div>
+                                <div class="sort-social">
+
+                                    <a href="" class="social-items-a">
+                                        <i class="social-items-i fab fa-linkedin-in"></i>
+                                    </a>
+                                </div>
+                                <div class="sort-social">
+
+                                    <a href="" class="social-items-a">
+                                        <i class="social-items-i fab fa-telegram-plane"></i>
+                                    </a>
+                                </div>
+                                <div class="sort-social">
+
+                                    <a href="" class="social-items-a">
+                                        <i class="social-items-i fab fa-instagram"></i>
+                                    </a>
+                                </div>
+                                <div class="sort-social">
+
+                                    <a href="" class="social-items-a">
+                                        <i class="social-items-i fab fa-twitter"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="comments">
+            <div class="container2">
+
+                <div class="com-box">
+                    <img src="images/quote.png" alt="" class="cotation">
+                    <div class="com-items">
+                        <div class="com-item">
+                            <div class="com-text">
+                                <p class="com-p">بطور خلاصه هدف پیدایش بیت کوین انتقال یا ذخیره امن پول است. از همین جهت آنرا میتوان یک سیستم پرداخت و بانکداری دیجیتال امن دانست.</p>
+                                <div class="com-bt">
+
+                                    <div class="com-cross">
+                                        <a href="" class="cross">
+                                            <i class="cross-i fas fa-angle-right"></i>
+                                        </a>
+                                        <a href="" class="cross">
+                                            <i class="cross-i fas fa-angle-left"></i>
+                                        </a>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="com-pic">
+                                <div class="pic-box">
+                                    <div class="pic-border pb1">
+                                        <img src="images/1_1.jpg" alt="" class="pic-pic">
+
+                                    </div>
+                                    <div class="pic-border pb2">
+                                        <img src="images/2_1.jpg" alt="" class="pic-pic">
+
+                                    </div>
+                                    <div class="pic-border pb3">
+                                        <img src="images/3_1.jpg" alt="" class="pic-pic">
+
+                                    </div>
+                                </div>
+                                <h2 class="pic-h2"> صابر افشار </h2>
+                                <p class="pic-p">مدیر تبلیغات</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="news">
+            <div class="comtainer2">
+
+                <div class="news-box">
+                    <div class="news-content">
+                        <h2 class="news-h2">مشترک خبرنامه کریپتو پلاس شوید</h2>
+                        <p class="news-p">با عضویت در خبرنامه زودتر از بقیه از اخبار بازار رمز ارزها مطلع شوید.</p>
+                    </div>
+
+                    <div class="new-mail">
+                        <form action="" class="news-frm">
+                            <input type="text" class="btn-textbox" value="ایمیل خود را وارد کیند">
+
+                            <button class="news-btn"> عضویت </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="last">
+            <div class="container2">
+
+                <div class="last-box">
+                    <h2 class="last-h2">مطالب اخیر</h2>
+                    <p class="last-p">هیچکس در راس قدرت شبکه نیست</p>
+                    <div class="last-items">
+
+                        <div class="lst-dtl">
+                            <img src="images/1_2.jpg" alt="" class="last-img">
+                            <div class="lst-pdn">
+                                <p class="last-date">22 مرداد 1399</p>
+                                <h5 class="last-header">چه ویژگی‌هایی بیت کوین را متمایز می‌کند؟</h5>
+                                <div class="last-details">
+                                    <div class="dt">
+                                        <p class="dt-p"><span class="dt-span">توسط</span> کریپتو پلاس </p>
+                                    </div>
+                                    <div class="dt">
+                                        <p class="dt-p"><i class="dt-i2 far fa-heart"></i>234 لایک</p>
+                                    </div>
+                                    <div class="dt">
+                                        <p class="dt-p"><i class="dt-i2 far fa-comments"></i> 8 نظر</p>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="lst-dtl">
+                            <img src="images/2_2.jpg" alt="" class="last-img">
+                            <div class="lst-pdn">
+
+                                <p class="last-date">22 مرداد 1399</p>
+                                <h5 class="last-header">چه ویژگی‌هایی بیت کوین را متمایز می‌کند؟</h5>
+                                <div class="last-details">
+                                    <div class="dt">
+                                        <p class="dt-p"><span class="dt-span">توسط</span> کریپتو پلاس </p>
+                                    </div>
+                                    <div class="dt">
+                                        <p class="dt-p"><i class="dt-i2 far fa-heart"></i>234 لایک</p>
+                                    </div>
+                                    <div class="dt">
+                                        <p class="dt-p"><i class="dt-i2 far fa-comments"></i> 8 نظر</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="lst-dtl">
+                            <img src="images/3_2.jpg" alt="" class="last-img">
+                            <div class="lst-pdn">
+
+                                <p class="last-date">22 مرداد 1399</p>
+                                <h5 class="last-header">چه ویژگی‌هایی بیت کوین را متمایز می‌کند؟</h5>
+                                <div class="last-details">
+                                    <div class="dt">
+                                        <p class="dt-p"><span class="dt-span">توسط</span> کریپتو پلاس </p>
+                                    </div>
+                                    <div class="dt">
+                                        <p class="dt-p"><i class="dt-i2 far fa-heart"></i>234 لایک</p>
+                                    </div>
+                                    <div class="dt">
+                                        <p class="dt-p"><i class="dt-i2 far fa-comments"></i> 8 نظر</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container2">
+            <div class="foot-box">
+                <div class="foot-items">
+                    <div class="foot-item">
+                        <img src="images/logo.png" alt="" class="foot-img">
+                        <p class="foot-p">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+                        <p class="foot-copyright">طراحی شده با ♥ توسط mirlohwp.ir ©</p>
+                    </div>
+                    <div class="foot-item">
+                        <h5 class="foot">راهنمای سایت
+                        </h5>
+                        <ul class="foot-list">
+                            <li class="list-item">
+                                <a href="#" class="list-link">راهنمای سایت</a> </li>
+                            <li class="list-item"><a href="#" class="list-link">ساخت کیف پول مجازی</a></li>
+                            <li class="list-item"><a href="#" class="list-link">راهنمای رمز ارزها</a></li>
+                            <li class="list-item"><a href="#" class="list-link">آموزش خرید بیت کوین</a></li>
+                            <li class="list-item"><a href="#" class="list-link">آموزش فروش بیت کوین</a></li>
+                            <li class="list-item"><a href="#" class="list-link">نمایش آنلاین قیمت</a> </li>
+
+                        </ul>
+                    </div>
+                    <div class="foot-item">
+                        <h5 class="foot">لینک‌های مفید</h5>
+                        <ul class="foot-list">
+                            <li class="list-item"><a href="#" class="list-link">روش‌های کسب درآمد</a></li>
+                            <li class="list-item"><a href="#" class="list-link">صرافی‌های مجاز</a></li>
+                            <li class="list-item"><a href="#" class="list-link">قوانین دولت</a></li>
+                            <li class="list-item"><a href="#" class="list-link">تبدیل رمز ارزها به ریال</a></li>
+                            <li class="list-item"><a href="#" class="list-link">انواع کیف پول‌ها</a></li>
+                        </ul>
+                    </div>
+                    <div class="foot-item">
+                        <h5 class="foot">ما را دنبال کنید</h5>
+
+                        <div class="foot-social">
+                            <div class="foot-social-items">
+                                <div class="foot-sort-social">
+                                    <a href="" class="foot-social-items-a">
+                                        <i class="foot-social-items-i fab fa-facebook-f"></i>
+                                    </a>
+                                </div>
+                                <div class="foot-sort-social">
+
+                                    <a href="" class="foot-social-items-a">
+                                        <i class="foot-social-items-i fab fa-linkedin-in"></i>
+                                    </a>
+                                </div>
+                                <div class="foot-sort-social">
+
+                                    <a href="" class="foot-social-items-a">
+                                        <i class="foot-social-items-i fab fa-telegram-plane"></i>
+                                    </a>
+                                </div>
+                                <div class="foot-sort-social">
+
+                                    <a href="" class="foot-social-items-a">
+                                        <i class="foot-social-items-i fab fa-instagram"></i>
+                                    </a>
+                                </div>
+                                <div class="foot-sort-social">
+
+                                    <a href="" class="foot-social-items-a">
+                                        <i class="foot-social-items-i fab fa-twitter"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
